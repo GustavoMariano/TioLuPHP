@@ -11,6 +11,9 @@
 	<br>
 	<input type="submit" name="verPedido" value="Ver Pedidos"> 
 	<input type="submit" name="addPedido" value="Fazer Pedido"> 
+	<?php
+	require 'contador.php';
+	?>
 	<br>
 	<input type="submit" name="logoff"  value ="Sair">
 </form>
